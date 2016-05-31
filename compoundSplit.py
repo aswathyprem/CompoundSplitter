@@ -9,6 +9,8 @@ def compoundSplitter(worddict,morphlist):
                                 if word[0][i:j] in worddict.keys():
                                     print word[0][i:j]
                                     print worddict[word[0][i:j]]
+                                    # Compound split algorith goes here
+                                    # Previous implementation removed due to issues in code.
 
         except Exception as e:
                 print "\tError %s" % str(e.message)
