@@ -27,6 +27,6 @@ if __name__ == '__main__':
         #morph_dict = ['-/-','s/-','es/-','n/-','e/-','en/-']
         corpus = fromMonolingData.readFile('/mount/arbeitsdaten12/users/veluthay/Project1/data/europarl-v7.de')
         corpus_1 = fromMonolingData.bootstrap(corpus)
-        #compoundSplitter(corpus_1,morph_dict)
+        compoundSplitter(corpus_1,morph_dict)
 	print datetime.datetime.now()
 	
